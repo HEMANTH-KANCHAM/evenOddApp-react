@@ -1,0 +1,43 @@
+.app-container {
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-image: linear-gradient(#ff6e7f, #bfe9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 80%;
+  height: 60vh;
+}
+
+.count-number {
+  color: #000000;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.count-type {
+  color: #334155;
+  font-size: 30px;
+  margin: 20x;
+}
+
+.button {
+  padding: 8px 20px;
+  border: none;
+  cursor: pointer;
+  color: #000000;
+  border-radius: 8px;
+}
+.description {
+  color: #334155;
+  font-size: 16px;
+  margin: 15px;
+}
